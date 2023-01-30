@@ -147,6 +147,7 @@ def station_stats(df):
     popular_trip=df.groupby(['Start Station', 'End Station']).size().nlargest(1)
     print('Most popular combination is: {}'.format(popular_trip))
     
+    # display total time report execution
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -166,7 +167,8 @@ def trip_duration_stats(df):
     mean_travel_time=df['Trip Duration'].mean()
     mean_travel=timedelta(seconds=mean_travel_time)
     print('Average travel time = {}'.format(mean_travel))
-
+    
+    # display total time report execution
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -192,6 +194,8 @@ def user_stats(df):
         print('The Earliest date of birth is {}, the latest is {} and the most common is {}'.format(earliest,most_recent,most_common))
     except KeyError:
         print('Washington has no data for Gender and Birth')
+        
+    # display total time report execution    
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
