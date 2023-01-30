@@ -11,9 +11,9 @@ It allow to get reporting from 3 diferent cities on use of the Bycicle share the
 
 ### Files used
 bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv (excluded from Github)
+new_york_city.csv (excluded from Github)
+washington.csv (excluded from Github)
 README.md
 
 ### Credits
