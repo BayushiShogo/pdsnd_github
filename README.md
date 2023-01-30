@@ -17,5 +17,6 @@ washington.csv (excluded from Github)
 README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity training Introduction to Version Control
+Github template udacity/pdsnd_github
 
