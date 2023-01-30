@@ -8,6 +8,7 @@ Bykeshare reporting phyton
 
 ### Description
 It allow to get reporting from 3 diferent cities on use of the Bycicle share there.
+Whit options to choose city/month/day and print raw data or not previous applying the filters
 
 ### Files used
 bikeshare.py
