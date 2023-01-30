@@ -49,6 +49,10 @@ def get_filters():
     return city, month, day
  
 def show_raw_data(raw):
+"""
+    Asks user to specify if they want to see raw data or not.
+    Added controls on proper use of yes and no
+"""
     row = 0
     print(raw[row:row+5])
     row += 5
